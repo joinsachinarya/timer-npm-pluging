@@ -1,4 +1,4 @@
-let targetTime:number=10;
+let targetTime:number;
 const timer =(targetTime:number)=>{
     let givenTime = setInterval(()=>{
         console.log(`${targetTime} seconds remaining!`);
@@ -10,5 +10,4 @@ const timer =(targetTime:number)=>{
     }, 1000)
 }
 
-timer(targetTime);
 export {timer};
