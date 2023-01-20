@@ -11,3 +11,4 @@ const timer =(targetTime:number)=>{
 }
 
 timer(targetTime);
+export {timer};
