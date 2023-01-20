@@ -1,0 +1,29 @@
+{
+  "name": "timer-npm-pluging",
+  "version": "1.0.0",
+  "description": "timer plugin",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sac6inarya/timer-npm-pluging.git"
+  },
+  "keywords": [
+    "ts",
+    "plugin"
+  ],
+  "author": "sac6inarya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sac6inarya/timer-npm-pluging/issues"
+  },
+  "homepage": "https://github.com/sac6inarya/timer-npm-pluging#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "files": ["lib/**/*"]
+}
